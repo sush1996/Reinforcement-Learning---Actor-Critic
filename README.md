@@ -5,7 +5,7 @@ We're trying to analyze how convergence is affected by different combinations of
 Ideally the step size or the learning rate for the actor (policy) is smaller than that of the critic (value) mainly because it takes a while for the critic to catch up to the actor. As a result we modfiy the actor's learning rate to be samller than the critic's.
 It is also recommended to keep the step sizes between 0 and 1.
 
-In this program we're trying to analyze how the convergence or the performance varies with different combinations of the step sizes. As shown in the plots below, it would behoove us to choose what we hypothesized in the previous paragraph.
+In this program we're trying to analyze how the convergence or the performance varies with different combinations of the step sizes. As shown in the plots below, it would behoove us to choose what we hypothesized in the previous paragraph. The training is done for 1000 episodes but the values are reported only for every 10th episode for better visualization.
 
 ![image](all_plots.png)
 
